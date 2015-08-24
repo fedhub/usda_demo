@@ -1,4 +1,4 @@
-var base_url = 'http://localhost:3000';
+var base_url = 'http://usda-demo.herokuapp.com';
 $(document).ready(function(){
 
     $('select').change(function(){
