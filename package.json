@@ -1,0 +1,33 @@
+{
+  "name": "usda_demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "~1.12.2",
+    "ejs": "~2.3.1",
+    "fs": "~0.0.2",
+    "express": "~4.12.3",
+    "http": "~0.0.0",
+    "socket.io-client": "~1.3.5",
+    "socket.io": "~1.3.5",
+    "url": "~0.10.3",
+    "sync-exec": "~0.5.0",
+    "multer": "~0.1.8",
+    "mysql": "~2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shimonsw/usda_demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shimonsw/usda_demo/issues"
+  },
+  "homepage": "https://github.com/shimonsw/usda_demo"
+}

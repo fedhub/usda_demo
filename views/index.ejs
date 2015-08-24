@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>USDA Demo</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+<div id="main">
+    <select>
+    <% for(var i = 0; i < json.A266FF2A662E84b639DA.length; i++){ %>
+        <option value="<%= json.A266FF2A662E84b639DA[i].Shrt_Desc %>" id="<%= json.A266FF2A662E84b639DA[i].NDB_No %>"><%= json.A266FF2A662E84b639DA[i].Shrt_Desc %></option>
+    <%}%>
+    </select>
+    <div id="nutritions">
+    </div>
+</div>
+</body>
+</html>
